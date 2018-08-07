@@ -43,7 +43,7 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     try {
         if (this.readyState == 4 && this.status == 200) {
-            var l = xhttp.responseText.split('\r\n');
+            var l = xhttp.responseText.split('\n');
             a = document.createElement('div');
             a.classList.add('alert');
             a.innerHTML = '<span class="closebtn" onclick="this.parentElement.style.display=\'none\';">&#x00d7;</span><strong>'+l[1]+'</strong><br>'+l[2];
