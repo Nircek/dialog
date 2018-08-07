@@ -18,7 +18,7 @@ addCss(`.alert {
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 32px;
     background-color: cyan;
     border: darkgreen 5px solid;
     padding: 5px;
