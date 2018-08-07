@@ -51,5 +51,5 @@ xhttp.onreadystatechange = function() {
         }
     } catch(e){}
 };
-xhttp.open("GET", "info", true);
+xhttp.open("GET", "info.xml", true);
 xhttp.send()
